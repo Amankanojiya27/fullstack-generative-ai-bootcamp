@@ -56,13 +56,13 @@ By the end, I’ll have built and deployed real-world AI systems using the same 
 ---
 
 ## 🧱 Folder Structure
-00-setup-and-basics/ → Python, Git, Docker, Pydantic
-01-llm-fundamentals/ → Tokenization, Embeddings, Attention
-02-prompt-engineering/ → Prompt design strategies
-03-llm-integration/ → APIs & local models
-04-agents-and-rag/ → RAG & Agents
-05-langgraph-memory/ → Graph memory systems
-06-multimodal-ai/ → STT, TTS, Multi-modal models
-07-mcp/ → Model Context Protocol
-projects/ → Real-world mini-projects
+- 00-setup-and-basics/ → Python, Git, Docker, Pydantic
+- 01-llm-fundamentals/ → Tokenization, Embeddings, Attention
+- 02-prompt-engineering/ → Prompt design strategies
+- 03-llm-integration/ → APIs & local models
+- 04-agents-and-rag/ → RAG & Agents
+- 05-langgraph-memory/ → Graph memory systems
+- 06-multimodal-ai/ → STT, TTS, Multi-modal models
+- 07-mcp/ → Model Context Protocol
+- projects/ → Real-world mini-projects
 
