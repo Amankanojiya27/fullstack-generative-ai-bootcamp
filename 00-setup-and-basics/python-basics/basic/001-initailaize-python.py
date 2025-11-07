@@ -5,7 +5,7 @@ class Car:
         self.color = color
 
     def drive(self):
-        print("Akash is driving the car")
+        print(f"Akash is driving the " +self.color+" " + self.name + " "+self.model)
     
     def stop_the_car(self):
         print("Akash stopped the car")
