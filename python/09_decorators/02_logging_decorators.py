@@ -11,7 +11,7 @@ def log_activity(func):
     return wrapper  # return the wrapper function
 
 @log_activity  # apply the decorator
-def brew_chai(type):
-    print(f"Brewing {type} chai")  # the main function logic
+def brew_chai(type, milk="no"):
+    print(f"Brewing {type} chai and milk status '{milk}'")  # the main function logic
 
 brew_chai("masala chai")  # call the decorated function
