@@ -5,4 +5,3 @@ while temp < 100:
     print(f"Current temperature: {temp}")
 
 print("Tea is boiling")
-f
