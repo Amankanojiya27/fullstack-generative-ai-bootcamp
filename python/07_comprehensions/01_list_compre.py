@@ -1,3 +1,6 @@
+# What is comprehension : comprehension is a concise and efficient way to create new sequences (lists, dictionaries, sets, or generators) using a single, readable line of code 
+
+# List Comprehensions in Python
 menu = [
     "Masala Chai",
     "Iced Lemon Tea",

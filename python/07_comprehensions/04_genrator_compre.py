@@ -1,3 +1,4 @@
+# Generator Comprehensions for Memory Optimization
 daily_sales= [5,10,12,15,6,26,47,22]
 
 total_cup = (sale for sale in daily_sales if sale > 30) # <generator object <genexpr> at 0x0000021B8D889490>
