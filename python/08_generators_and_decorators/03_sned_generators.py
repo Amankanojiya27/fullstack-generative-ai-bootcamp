@@ -2,12 +2,12 @@
 
 def chai_custmor():
     print("Welcome to chai shop !")
-    order = yield
+    order = yield              # receive first order
     while True:
-        print(f"Preparing: {order}")
-        order = yield
+        print(f"Preparing: {order}")  # process order
+        order = yield          # wait for next order
 
 stall = chai_custmor()
-next(stall)
-stall.send("Masala chai") 
-stall.send("Lemon chai") 
+next(stall)                    # start generator
+stall.send("Masala chai")      # send first order
+stall.send("Lemon chai")       # send next order
