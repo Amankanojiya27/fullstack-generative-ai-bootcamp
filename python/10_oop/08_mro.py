@@ -14,3 +14,4 @@ class D(B,C):
 cup = D()
 
 print(cup.lable)
+print(D.__mro__)
