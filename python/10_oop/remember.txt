@@ -1,0 +1,5 @@
+Object-oriented programming is a programming paradigm.
+What do I mean by a paradigm?
+A paradigm simply refers to a way of writing code.
+
+This way of writing code evolved during the C era, and after that, many programming languages adopted it—such as Java, JavaScript, Kotlin, and Swift.
